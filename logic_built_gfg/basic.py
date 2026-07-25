@@ -13,3 +13,9 @@ class Solution:
             return False
 
 #multiplication table :
+
+
+def print_Table(n):
+
+    for i in range(1, 11):
+        print(n , "x", i , "=" ,n*i, '\n' )
