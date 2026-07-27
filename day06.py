@@ -20,3 +20,9 @@ print(a**b)
 # or when any one of the output can be correct 
 # not when result should be opposite as imagined
 
+
+# identity comparision operators:
+# is and is not  this are the 2 operators to check whether the value is given in the string or not 
+
+# same for the membership operators:
+# in and not in tells whether this contain given value or not 
