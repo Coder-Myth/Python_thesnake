@@ -15,3 +15,4 @@ d=54
 
 print(c+d)#here c float d is integer i.e d is converted into float i.e. implicit typecasting 
 
+# here are the two types of typecasting discussed
