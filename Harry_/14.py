@@ -1,14 +1,15 @@
 # if  
 
-if n%2 ==0 :
-  print("Even")
-
-# if else 
 if a%4 ==0 :
   print("leap Year")
 
+# if else 
+
+if n%2 ==0 :
+  print("Even")
+
 else :
-  print("Not Leap Year")
+  print("Odd")
 
 # elif
 
