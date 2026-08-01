@@ -45,3 +45,7 @@ print(list[1:-1])#negative indexing
 # there was no list before but as i got need i  just started making list 
 
  
+lst = [i for i in range(9)]
+#     |---||----------------|   
+#     |var |       loop     |
+ 
