@@ -48,4 +48,8 @@ print(list[1:-1])#negative indexing
 lst = [i for i in range(9)]
 #     |---||----------------|   
 #     |var |       loop     |
- 
+
+print(lst)
+
+ # you can makechanges in variable i.e i*2, i+78
+
