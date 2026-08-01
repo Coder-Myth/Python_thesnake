@@ -37,4 +37,5 @@ print(list[1:])#till end
 print(list[1:4])#till 4 not including 4th index
 print(list[1:-1])#negative indexing 
 
-# list comprehension 
+#<---------------- list comprehension ---------------------------->
+# on the fly generating a list 
