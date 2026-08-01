@@ -25,3 +25,16 @@ if 4 in list:
     print("Yes")
 else:
     print("No") 
+
+
+# Jump INdex
+
+# print(list[start:end:jump])
+
+print(list[1:: 3])# [2,5,8,true]jump is skip 1 skip 2 now give three 
+
+print(list[1:])#till end 
+print(list[1:4])#till 4 not including 4th index
+print(list[1:-1])#negative indexing 
+
+# list comprehension 
