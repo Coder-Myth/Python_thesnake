@@ -19,3 +19,19 @@ Code(c=98)#a=9, b=98
 #keywords Arguments : order doesnot matter if the given argument is in the way given below
 Code(c=46, a=76)#keyword argument
  
+
+
+
+#required arguments :
+
+def Code2(a, b, c=45):
+    print(a+b+c)
+
+Code2(34,45) # here c is default argument but not a & b this are required arguments
+
+# if not given required arg then error will be there shown
+
+
+#return statement : value that is returned and stored whenever the function is called 
+
+ 
