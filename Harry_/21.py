@@ -35,3 +35,12 @@ Code2(34,45) # here c is default argument but not a & b this are required argume
 #return statement : value that is returned and stored whenever the function is called 
 
  
+# we can use function argument as list tuple or dictionary
+
+def sum(*numbers):# l=tuple
+    pass
+
+
+def sum(**numbers):# l=dictionary
+    pass
+
