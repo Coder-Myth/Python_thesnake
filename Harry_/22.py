@@ -39,3 +39,5 @@ print(list[1:-1])#negative indexing
 
 #<---------------- list comprehension ---------------------------->
 # on the fly generating a list 
+
+# there was no list before but as i got need i  just started making list 
