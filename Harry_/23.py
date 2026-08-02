@@ -31,4 +31,12 @@ list.insert("INDEX", "VALUE")  # inserts the value on the index given below
 
 list.extend("VALUE1", "VALUE2")  # adds multiple value to the list
 
+ print(list)
+
+
+list.copy()#this has got a catch in the list
+
+m= list
+m[0]=69
+
  
