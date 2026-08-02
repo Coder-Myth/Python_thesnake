@@ -39,4 +39,11 @@ list.copy()#this has got a catch in the list
 m= list
 m[0]=69
 
+ print(list)#expected output [1,2,3,4,5] but it comes out to be [69,2,3,4,5]
+
+# i.e. we use list.copy()
+
+# this creates a new list withthe same number of elements in list and now the new changes are there till the new list only 
+
+
  
