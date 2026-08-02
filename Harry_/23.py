@@ -27,3 +27,8 @@ list.count("#value")  # count the times value inseted comes in it
 
 list.pop(7) #removes 7 from list
  
+list.insert("INDEX", "VALUE")  # inserts the value on the index given below
+
+list.extend("VALUE1", "VALUE2")  # adds multiple value to the list
+
+ 
