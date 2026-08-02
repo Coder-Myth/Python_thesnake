@@ -18,3 +18,5 @@ res= tuple.count(3, 0,2) #count number of time 3 comes in interval
 
 res=tuple.index(3,2,4) # (value, start , index )
  
+
+res = len(tuple)#tells you length of tuple
