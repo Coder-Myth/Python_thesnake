@@ -13,3 +13,8 @@ res = tuple.index(3) #gives you first occurence of 3 in tuple
 
 # but if we need to check in a given interval then 
  
+
+res= tuple.count(3, 0,2) #count number of time 3 comes in interval
+
+res=tuple.index(3,2,4) # (value, start , index )
+ 
