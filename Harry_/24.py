@@ -20,3 +20,9 @@ res=tuple.index(3,2,4) # (value, start , index )
  
 
 res = len(tuple)#tells you length of tuple
+
+
+tuple1 = tuple[1:4]
+print(tuple)
+
+#there are more thing  to add 
