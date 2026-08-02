@@ -12,3 +12,6 @@ for i in range(0, len(questions)):
     else:
         final_score=0
      
+    
+    for j in range(): 
+        pass
