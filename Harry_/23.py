@@ -51,4 +51,6 @@ m[0]=69
 # k(tuple1)--------
 #                 |
 #                 |-->l=k+g------> l=new tuple (l has all the elements there in k and g )
+#                 |
+# g(tuple2)--------
  
