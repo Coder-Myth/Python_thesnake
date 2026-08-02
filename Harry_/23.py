@@ -46,4 +46,9 @@ m[0]=69
 # this creates a new list withthe same number of elements in list and now the new changes are there till the new list only 
 
 
+ #concatenate tuple: i.e. simply add two tuple in the output you will get the total no. of elements of both in new elements
+
+# k(tuple1)--------
+#                 |
+#                 |-->l=k+g------> l=new tuple (l has all the elements there in k and g )
  
