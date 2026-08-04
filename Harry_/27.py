@@ -25,3 +25,12 @@ for j in range(0, len(answer)):
     # print(check_answer)
  
  
+# print(score)
+# print(answer)
+
+# sum of a list
+final_score = 0
+for k in range(0, len(score)):
+    score_for_each = score[k]
+    final_score = final_score + score_for_each
+ 
