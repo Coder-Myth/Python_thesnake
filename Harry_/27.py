@@ -10,3 +10,10 @@ for i in range(0, len(questions)):
     answer.append(int(input("Enter Your Answer:")))
 
  
+score = []
+
+for j in range(0, len(answer)):
+    check_answer = answer[j]
+    if j == 0 and check_answer == 6:
+        score.append(1)
+ 
