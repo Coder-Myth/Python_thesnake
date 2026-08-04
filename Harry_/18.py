@@ -6,3 +6,6 @@ for i in range(1,4):
   elif(i==3):
     continue#skips 3 as value and continues the loop the same way as they way
      
+
+  else:
+    
