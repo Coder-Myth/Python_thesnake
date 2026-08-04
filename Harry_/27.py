@@ -16,4 +16,12 @@ for j in range(0, len(answer)):
     check_answer = answer[j]
     if j == 0 and check_answer == 6:
         score.append(1)
+            elif j == 1 and check_answer == 32:
+        score.append(1)
+    elif j == 2 and check_answer == 2:
+        score.append(1)
+    else:
+        score.append(0)
+    # print(check_answer)
+ 
  
