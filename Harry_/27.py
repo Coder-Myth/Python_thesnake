@@ -34,3 +34,5 @@ for k in range(0, len(score)):
     score_for_each = score[k]
     final_score = final_score + score_for_each
  
+
+print("Your Final Score is:", final_score)
