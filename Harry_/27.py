@@ -1,4 +1,4 @@
-# kbc : create a program that asks you questions and tells you marks accordingly
+# kbc : create a program that asks you questions and tells you marks accordingly or the final score on this basis 
 
 questions = ["2+4", "16*2", "4/2"]
 
