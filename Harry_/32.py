@@ -20,3 +20,11 @@ print(intersection)
 intersection_update= s2.intersection_update(s1)
 # print(intersection_update)-----> output none because same elements that is the proof btw if you think it in a way
  
+
+# symmetric_difference : values that are not common in the sets <-----values of both sets come-------->
+symmetric_difference =s1.symmetric_difference(s2)
+symmetric_difference_update =s1.symmetric_difference_update(s2)
+
+# difference : removes the common elements from the dominating set and gives other elements
+difference =s1.difference(s2)
+ 
