@@ -27,4 +27,9 @@ symmetric_difference_update =s1.symmetric_difference_update(s2)
 
 # difference : removes the common elements from the dominating set and gives other elements
 difference =s1.difference(s2)
+difference_update =s1.difference_update(s2)
+
+#special methods: 
+
+# isdisjoint(): false i elements are there common, true if no elements are in common
  
