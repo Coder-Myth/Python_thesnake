@@ -11,3 +11,8 @@ for i in dict:
     print(dict[i])
 
 print(dict.items())
+
+
+# in f strings you can use this as : 
+
+for key , value in dict.items(): 
