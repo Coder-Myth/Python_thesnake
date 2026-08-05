@@ -17,3 +17,12 @@ print(f"my name is {name}, I'm from {country}")
 
 print(f"my name is {{name}}, I'm from {{country}}")
 # output : my name is {name, I'm from{country}}
+
+
+# <----------------------------------- concept in dictionary further------------------------------------>
+# in f strings you can use this as : 
+
+for key , value in range():
+    print(f"Roll Number :{key}, \n marks: {value}")
+
+    # using two variable in string
