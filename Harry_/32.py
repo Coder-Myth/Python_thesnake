@@ -33,3 +33,9 @@ difference_update =s1.difference_update(s2)
 
 # isdisjoint(): false i elements are there common, true if no elements are in common
  
+
+# issuperset(): all elements of of s2 are there in s1
+
+# issubset(): elemets in s2 are all there in in s1
+
+ 
