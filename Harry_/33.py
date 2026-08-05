@@ -16,3 +16,8 @@ print(dict.items())
 # in f strings you can use this as : 
 
 for key , value in dict.items(): 
+
+    print(f"Name :{key}, \nmarks: {value}")
+
+    # using two variable in f string via dictionary defined
+    
