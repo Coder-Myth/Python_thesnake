@@ -4,3 +4,10 @@
 
 set1 = {"hello", 45, True}
  
+# empty set: p= set{}
+
+set2 = {}  # dictionary
+
+hello = set()
+
+print(type(hello))
