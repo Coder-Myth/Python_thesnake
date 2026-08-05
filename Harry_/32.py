@@ -38,4 +38,14 @@ difference_update =s1.difference_update(s2)
 
 # issubset(): elemets in s2 are all there in in s1
 
- 
+ #add():
+
+# update()
+
+# remov0():it raises error /discard():it makes program in flow do n't show error
+
+# pop(): randomly removes element from the set i.e. last element
+
+# del cities : delets set
+
+# clear(): just clears the set
