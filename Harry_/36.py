@@ -24,3 +24,9 @@ except  IndexError:
 
 
  
+'''
+If the user enters something that's not a number (like "abc") → catch it and print "Please enter valid numbers."
+If the user enters 0 as the second number (division by zero) → catch it and print "Cannot divide by zero."
+If neither error occurs → print the division result.
+'''
+
