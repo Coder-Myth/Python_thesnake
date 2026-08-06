@@ -16,4 +16,11 @@ try:
 
 except ValueError:
     print("Invalid Input")
+
+
+except  IndexError:
+    print("Index error")
+
+
+
  
