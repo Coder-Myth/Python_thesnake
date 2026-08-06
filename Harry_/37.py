@@ -9,3 +9,9 @@ finally:
     print("Your Desired Output")
 
  
+print(
+    "Your desired output"
+)  # this is also always printed except when this is in function and function works as a return statement
+
+
+# fi
