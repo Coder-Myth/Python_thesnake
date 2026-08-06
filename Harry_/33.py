@@ -5,7 +5,7 @@ dict= {
     "dh":43,
     "ttt":4332
 }
- print(dict["dh"])
+print(dict["dh"])
 #loop to access or selected value using range function
 for i in dict:
     print(dict[i])
