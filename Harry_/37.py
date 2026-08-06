@@ -24,3 +24,8 @@ def random_print():
         return 0
     finally:
         print("Your Desired Output") 
+
+
+    print(
+        "Your desired output"
+    )  #this value will never be excecuted but if we use finally it will be excecuted
