@@ -34,7 +34,7 @@ print(print_numbers(4))
 
 print("end\n")
 
-#<-----------------------sum of digits:(1234-->1+2+3+4)---------------------->
+#<------------------------sum of digits:(1234-->1+2+3+4)------------------------>
 
 # number--> string --> slicing --> integer--> Add
 
