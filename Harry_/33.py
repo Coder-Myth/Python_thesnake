@@ -20,4 +20,3 @@ for key , value in dict.items():
     print(f"Name :{key}, \nmarks: {value}")
 
 # using two variable in f string via dictionary defined
-ss
