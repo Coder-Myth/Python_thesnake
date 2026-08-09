@@ -1,7 +1,7 @@
 #excercise 2 ( code with harry )
 # excercise 4solution
 
-#code decode 
+#code decode : 
 task = input("1. Code \n\n2. Decode\n\nENTER YOUR CHOICE>>>>>>>>>>>")
 
 if not task.isdigit():
