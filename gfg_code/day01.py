@@ -9,3 +9,4 @@ a=int(input("Enter Your Image: "))
 # sep used to seperate, end used to end statements , multiple statements in one print statements
 #input Function i.e. a=input("....") stores value as string by default 
 #dt the end 
+#you will practice 
