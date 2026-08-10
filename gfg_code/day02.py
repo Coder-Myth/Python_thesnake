@@ -22,3 +22,4 @@ print(tuple.count(5))
 #list 
 list=[1,2,3,]
 
+#django
