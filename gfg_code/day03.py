@@ -1,5 +1,5 @@
 #dictionary :key value pairs which can be accessed by key 
-
+#and the values are accessed 
 Price:{ "laptop" : 4000 , "Mobile": 8000}
 
 print(set(Price))
