@@ -1,4 +1,4 @@
-#dictionary :key value pairs 
+#dictionary :key value pairs which can be accessed by key 
 
 Price:{ "laptop" : 4000 , "Mobile": 8000}
 
