@@ -1,5 +1,5 @@
 # function :instead of writing a long code again and again we just go with it and write a block of code giving it a name 
-#lines of code gets less , code becomes more efficient 
+#lines of code gets less , code becomes more efficient and reuseable
 
 #simple function 
 def sum():
