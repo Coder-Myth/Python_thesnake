@@ -1,5 +1,5 @@
 #flow Control :
-#if , if -else, elif matchcase statements all the statements are 
+#if , if -else, elif matchcase statements all the statements are listed below
 
 a =int(input())
 
