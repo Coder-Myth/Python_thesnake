@@ -2,7 +2,7 @@
 #helps you inchanging the type of function from one to another 
 
 
-
+#day
 
 #tuple in python : creating single tuple in is a little tricky i.e. we nee to add omma after the list item i.e.
 #tuple=(10,)
