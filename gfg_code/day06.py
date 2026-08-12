@@ -26,3 +26,4 @@ print(a**b)
 
 # same for the membership operators:
 # in and not in tells whether this contain given value or not 
+# using them reduces lines of code 
