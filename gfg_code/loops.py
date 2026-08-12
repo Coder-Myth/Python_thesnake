@@ -5,6 +5,7 @@
 for i in range(1,10):
     print(i)
 
+#not necessary but use to give a flow to the program
 i=0
 while (i>5):
     print(i)
