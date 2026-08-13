@@ -20,8 +20,6 @@ def hello():
     pass
 
 
-# 170/22
-
 # two types of function:
 # inbuilt function : already there in python 
 # user defined function : as per need they are defined 
