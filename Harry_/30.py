@@ -3,7 +3,7 @@
 # find sum of n numbers
 
 def sum(n):
-    if n==1:
+    if n==1: #base case return this when value is about to end
         return 1
     else:
         return sum(n-1)+n

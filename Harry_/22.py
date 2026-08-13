@@ -13,12 +13,6 @@ print(list)
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, "Harry", True]
 print(list)
 
-# list : changeable,  ordered , store multiple item in single variable
-
-# index : accessing different items from list /
-
-# negative indexing ---> positive indexing  len(name)-x
-
 # check something in python
 
 if 4 in list:
@@ -27,7 +21,7 @@ else:
     print("No") 
 
 
-# Jump INdex
+# Jump Index
 
 # print(list[start:end:jump])
 
@@ -38,7 +32,7 @@ print(list[1:4])#till 4 not including 4th index
 print(list[1:-1])#negative indexing 
 
 #<---------------- list comprehension ---------------------------->
-# on the fly generating a list 
+# on the fly generating a list
 
 # there was no list before but as i got need i  just started making list 
 
@@ -46,7 +40,7 @@ print(list[1:-1])#negative indexing
 
  
 lst = [i for i in range(9)]
-#     |---||----------------|   
+#     |---||----------------|
 #     |var |       loop     |
 
 print(lst)
