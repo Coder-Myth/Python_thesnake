@@ -18,4 +18,3 @@ elif task.isdigit():
             )
     except:
         print("Enter 1 or 2 as your integer:")
-# kk jka tt 
