@@ -36,14 +36,11 @@ print(list[1:-1])#negative indexing
 
 # there was no list before but as i got need i  just started making list 
 
-# there was no list before but as i got need i  just started making list 
-
- 
 lst = [i for i in range(9)]
 #     |---||----------------|
 #     |var |       loop     |
 
 print(lst)
 
- # you can makechanges in variable i.e i*2, i+78
+# you can makechanges in variable i.e i*2, i+78
 
