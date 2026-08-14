@@ -16,4 +16,7 @@ for index , i in enumerate(lst):
 
     # as well index os showing this can be changed 
 
- 
+ #start index:
+
+for index , i in enumerate(lst, start =4):#now when index =4 it starts from there 
+    print(index , ":",i)#this gives index : value key value order pair
