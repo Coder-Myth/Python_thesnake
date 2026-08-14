@@ -1,8 +1,6 @@
 #type Conversion Method:
 #helps you inchanging the type of function from one to another 
-
-
-#day
+#day02 in gfg
 #by day revisee this 
 #tuple in python : creating single tuple in is a little tricky i.e. we nee to add omma after the list item i.e.
 #tuple=(10,)
