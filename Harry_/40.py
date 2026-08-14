@@ -20,10 +20,11 @@ elif task.isdigit():
             if len(word) < 3:
                 print(word)
             else:
-                for i in range(0, len(word)+1):
+                first_alphabet=word[0]
+                for i in range(1, len(word)):
                     # store this word into list each word in list then append then first word at last and then gain we will print output
-                    print(word[i],end="")
-
+                        print(word[i],end="")
+                print(first_alphabet)
 
         elif task == 2:
             print(
