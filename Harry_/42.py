@@ -11,3 +11,9 @@ for i in lst:
     index+=1
 
 # this can be easily done by python 
+for index , i in enumerate(lst):
+    print(index , ":",i)#this gives index : value key value order pair
+
+    # as well index os showing this can be changed 
+
+ 
