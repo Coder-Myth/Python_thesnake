@@ -24,3 +24,4 @@ print(c)
 num = int(input("Enter Your Number:"))
 
 result = if num>0 print("Positive") else (num==0) print("Zero") else print("negative")
+print(result)
