@@ -44,3 +44,9 @@ task = int(input("1. Code \n\n2. Decode\n\nENTER YOUR CHOICE>>>>>>>>>>>"))
 if task == 1:
         message = input("Enter Your Message :")
     for words in message.split(): 
+        
+        if len(words) < 3:
+            words = words[1:] + words[0]
+        if len(words) >= 3:
+            words = words[1:] + words[0]
+ 
