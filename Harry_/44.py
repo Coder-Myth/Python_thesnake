@@ -1,3 +1,5 @@
+'''
+
 # import 
 
 # import takes all the built in function in python 
@@ -16,3 +18,15 @@ import math as m
 
 # now use this name 
 result = m.sqrt(9) #---> this gives 3 as output
+
+# dir function
+
+# this function tell or lists all the function in the library 
+print(dir(math))
+'''
+# we can import function or variable from the same program as well 
+# just see go to video sample
+from sample import *
+
+# print(sample)
+print(raja())
