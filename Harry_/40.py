@@ -49,4 +49,5 @@ if task == 1:
             words = words[1:] + words[0]
         if len(words) >= 3:
             words = words[1:] + words[0]
- 
+            # print(words)
+        print(words, end=" ")
