@@ -17,3 +17,6 @@ c="fuck" if a<b else ""# double quote returns nothing
 # if == true ----> c is printed and if not else statement is printed 
 
 print(c)
+
+# Question: Write a Python program that checks if a number is positive, negative, or zero using the shorthand if-else
+# (ternary operator). Store the result in a variable called result and print it.
