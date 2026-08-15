@@ -20,3 +20,6 @@ print(c)
 
 # Question: Write a Python program that checks if a number is positive, negative, or zero using the shorthand if-else
 # (ternary operator). Store the result in a variable called result and print it.
+
+num = int(input("Enter Your Number:"))
+ 
