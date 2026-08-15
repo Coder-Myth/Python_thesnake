@@ -10,3 +10,8 @@
 # 2. (name of Environment)/bin/activate this simply activates the environment
 
 # 3. deactivate ==> this one to deactivate
+
+
+# pip freeze ---> this tells how many of version are there in python
+# pip freeze > requirements.txt ---> this writes all teh packages in txt file found outside the folder 
+ 
