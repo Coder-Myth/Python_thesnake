@@ -42,4 +42,5 @@ elif task.isdigit():
 task = int(input("1. Code \n\n2. Decode\n\nENTER YOUR CHOICE>>>>>>>>>>>"))
 
 if task == 1:
- 
+        message = input("Enter Your Message :")
+    for words in message.split(): 
