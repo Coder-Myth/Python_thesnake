@@ -26,7 +26,9 @@ print(dir(math))
 '''
 # we can import function or variable from the same program as well 
 # just see go to video sample
-from sample import *
+# from sample import *
+from sample import raja
 
 # print(sample)
-print(raja())
+print(raja)# this is a function 
+print(raja())# returns data type as well as name as print statement 
