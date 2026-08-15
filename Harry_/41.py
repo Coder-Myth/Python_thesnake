@@ -22,4 +22,5 @@ print(c)
 # (ternary operator). Store the result in a variable called result and print it.
 
 num = int(input("Enter Your Number:"))
- 
+
+result = if num>0 print("Positive") else (num==0) print("Zero") else print("negative")
