@@ -36,3 +36,10 @@ elif task.isdigit():
         print("Enter 1 or 2 as your integer:")
 
 """
+
+# another method  :
+
+task = int(input("1. Code \n\n2. Decode\n\nENTER YOUR CHOICE>>>>>>>>>>>"))
+
+if task == 1:
+ 
