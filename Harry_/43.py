@@ -1,11 +1,11 @@
-#virtual environment in python:
-# enviornmetn which is used when working on different projects should become easy 
+# virtual environment in python:
+# enviornmetn which is used when working on different projects should become easy
 
-# this gives you a access to install the version that is different from globaal version 
+# this gives you a access to install the version that is different from globaal version
 
-# to do this make a folder 
+# to do this make a folder
 # 1. open the folder in terminal :python3 -m venv (name of Environment)
-#   this takes you inside the folder 
+#   this takes you inside the folder
 
 # 2. (name of Environment)/bin/activate this simply activates the environment
 
@@ -13,7 +13,20 @@
 
 
 # pip freeze ---> this tells how many of version are there in python
-# pip freeze > requirements.txt ---> this writes all teh packages in txt file found outside the folder 
+# pip freeze > requirements.txt ---> this writes all teh packages in txt file found outside the folder
 
 
-# pip -r requirements.txt ---> this installs all the version in your computer 
+# pip -r requirements.txt ---> this installs all the version in your computer
+
+
+# for windows :========>
+# """
+# ---------------------------------------------------------------------
+# python -m venv venv
+
+# venv\scripts\activate
+
+# to deactivate simply deactivate
+
+# ---------------------------------------------------------------------"""
+# #
