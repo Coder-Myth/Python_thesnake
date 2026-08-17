@@ -36,3 +36,18 @@ elif task.isdigit():
         print("Enter 1 or 2 as your integer:")
 
 """
+
+# another method  :
+
+task = int(input("1. Code \n\n2. Decode\n\nENTER YOUR CHOICE>>>>>>>>>>>"))
+
+if task == 1:
+        message = input("Enter Your Message :")
+    for words in message.split(): 
+        
+        if len(words) < 3:
+            words = words[1:] + words[0]
+        if len(words) >= 3:
+            words = words[1:] + words[0]
+            # print(words)
+        print(words, end=" ")
