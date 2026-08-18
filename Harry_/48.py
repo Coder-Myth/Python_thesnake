@@ -13,4 +13,6 @@ def new():
     global a #global variable changed
         a=10
     return a
- 
+
+
+print(new())#
