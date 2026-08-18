@@ -10,4 +10,5 @@ print(a)
 
 def new():
     #modify global variable
-    global a  
+    global a #global variable changed
+ 
