@@ -7,3 +7,7 @@ def hello():
 
 hello()
 print(a)
+
+def new():
+    #modify global variable
+    global a  
