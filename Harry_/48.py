@@ -16,3 +16,4 @@ def new():
 
 
 print(new())#function in which global variable value is changed
+
