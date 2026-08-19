@@ -17,3 +17,7 @@ print(cube(3))
 
 
 def final_output(fx, v):  # here fx keyword is for function
+        return v + fx(v)
+
+
+print(final_output(cube, 3))
