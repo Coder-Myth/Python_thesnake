@@ -13,3 +13,13 @@ print(read)
 a.close()
 
  
+# write mode : this file allows you to write inside the file , if not exists this creates one file
+#    <==========this mode just removes the earlier content and only keeps your new content===========>
+c = open("sample.txt", "w")
+c.write("Hello World!")
+c.close()
+
+
+# append(): this adds the content when ever required
+d = open("sample.txt", "a")
+d.write("Hello World!")
