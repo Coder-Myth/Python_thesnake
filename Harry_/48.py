@@ -15,4 +15,4 @@ def new():
     return a
 
 
-print(new())#
+print(new())#function in which global variable value is changed
