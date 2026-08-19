@@ -13,3 +13,7 @@ cube = lambda y: y**3
 print(cube(3))
 
  
+# this is mostly used when lambda function is passed as an arguments example
+
+
+def final_output(fx, v):  # here fx keyword is for function
