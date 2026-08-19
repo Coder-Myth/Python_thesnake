@@ -11,3 +11,5 @@ a = open("sample2.txt", "r")  # if not written 'r' by default it is the same
 read = a.read()
 print(read)
 a.close()
+
+ 
