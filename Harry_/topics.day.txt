@@ -1,6 +1,7 @@
 ============================================================
 |  CodeWithHarry | 100 Days of Code  |  Python Programming |
 ============================================================
+
 Day 1   - Intro to Python
 Day 2   - Application of Python
 Day 3   - Modules and Pip
@@ -102,4 +103,6 @@ Day 98  - MultiProcessing in Python
 Day 99  - Exercise 11: Solution
 Day 100 - Conclusion & Where to Go From Here
 
+============================================================
+|                    END OF PLAYLIST                       |
 ============================================================
