@@ -1,0 +1,105 @@
+============================================================
+|  CodeWithHarry | 100 Days of Code  |  Python Programming |
+============================================================
+Day 1   - Intro to Python
+Day 2   - Application of Python
+Day 3   - Modules and Pip
+Day 4   - Our First Program
+Day 5   - Comments and Print
+Day 6   - Variables and Data Types
+Day 7   - Exercise 1: Create a Calculator
+Day 8   - Exercise 1: Create a Calculator - Solution
+Day 9   - Typecasting in Python
+Day 10  - Taking User Input
+Day 11  - Strings
+Day 12  - Strings Slicing
+Day 13  - String Methods
+Day 14  - If-Else Conditionals
+Day 15  - Exercise 2: Good Morning Sir
+Day 16  - Match Case
+Day 17  - For Loops
+Day 18  - While Loops
+Day 19  - break and continue
+Day 20  - Functions
+Day 21  - Function Arguments
+Day 22  - Introduction to Lists
+Day 23  - List Methods
+Day 24  - Introduction to Tuples
+Day 25  - Operations on Tuples
+Day 26  - Exercise 2: Solution
+Day 27  - Exercise 3
+Day 28  - f-strings
+Day 29  - Docstrings
+Day 30  - Recursion
+Day 31  - Sets
+Day 32  - Set Methods
+Day 33  - Dictionary
+Day 34  - Dictionary Methods
+Day 35  - For Loop with Else
+Day 36  - Exception Handling
+Day 37  - Finally Keyword
+Day 38  - Custom Errors
+Day 39  - Exercise 3: Solution
+Day 40  - Exercise 4
+Day 41  - Short Hand if-else
+Day 42  - Enumerate
+Day 43  - Pip and virtual enviornment
+Day 44  - How Import Works
+Day 45  - if __name__ == "__main__" in Python
+Day 46  - os Module
+Day 47  - Exercise 4: Solution
+Day 48  - Local vs Global Variables
+Day 49  - File I/O
+Day 50  - read(), readlines() and Other Methods
+Day 51  - seek() and tell() Functions
+Day 52  - Lambda Functions
+Day 53  - Map, Filter and Reduce
+Day 54  - is vs == in Python
+Day 55  - Exercise 5
+Day 56  - Intro to OOPs
+Day 57  - Classes and Objects
+Day 58  - Constructors
+Day 59  - Decorators in Python
+Day 60  - Getters and Setters
+Day 61  - Inheritance in Python
+Day 62  - Access Specifiers
+Day 63  - Exercise 5: Solution
+Day 64  - Exercise 6
+Day 65  - Static Methods
+Day 66  - Instance vs Class Variables
+Day 67  - Exercise 6: Solution
+Day 68  - Exercise 7
+Day 69  - Class Methods
+Day 70  - Class Methods as Alternative Constructors
+Day 71  - dir(), __dict__ and help() Methods
+Day 72  - super() Keyword
+Day 73  - Magic/Dunder Methods
+Day 74  - Method Overriding
+Day 75  - Exercise 7: Solution
+Day 76  - Exercise 8
+Day 77  - Operator Overloading
+Day 78  - Single Inheritance
+Day 79  - Multiple Inheritance
+Day 80  - Multilevel Inheritance
+Day 81  - Hybrid and Hierarchical Inheritance
+Day 82  - Exercise 8: Solution
+Day 83  - Exercise 9
+Day 84  - Time Module
+Day 85  - Command Line Utility
+Day 86  - Walrus Operator
+Day 87  - shutil Module
+Day 88  - Exercise 9: Solution
+Day 89  - Requests Module
+Day 90  - Exercise 10
+Day 91  - Generators in Python
+Day 92  - Function Caching
+Day 93  - Exercise 10: Solution
+Day 94  - Exercise 11
+Day 95  - Regular Expressions
+Day 96  - AsyncIO in Python
+Day 97  - MultiThreading in Python
+Day 98  - MultiProcessing in Python
+Day 99  - Exercise 11: Solution
+Day 100 - Conclusion & Where to Go From Here
+
+============================================================
