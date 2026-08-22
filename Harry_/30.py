@@ -1,4 +1,9 @@
-# recursion:  calling function in same function with different arguments
+# recursion:  calling function in same function with different arguments\
+
+# Steps to write an recursion ====>
+# 1. first define an function winth name and argument
+# 2. set the base case whenever required 
+# 3. then on else acording to the logic write the function which gets you the value
 
 # find sum of n numbers
 

@@ -1,0 +1,96 @@
+PYTHON PRACTICE QUESTIONS - SEQUENTIAL
+(Aligned with CodeWithHarry's 100 Days of Code, Videos 1-55 coverage)
+==========================================================================
+
+SECTION 1: BASICS, VARIABLES, INPUT/OUTPUT
+--------------------------------------------------------------------------
+1. Print "Hello, World!" to the console.
+2. Take your name as input and print "Hello, <name>!".
+3. Take two numbers as input and print their sum, difference, product, and quotient.
+4. Swap two variables without using a third variable.
+5. Take a person's age as input and print their birth year (assume current year 2026).
+6. Write a program that prints the type of different variables (int, float, str, bool).
+7. Take temperature in Celsius as input and convert it to Fahrenheit.
+8. Calculate the area and perimeter of a rectangle given length and breadth.
+9. Take the radius of a circle as input and calculate its area and circumference.
+10. Take principal, rate, and time as input and calculate simple interest.
+
+SECTION 2: OPERATORS
+--------------------------------------------------------------------------
+11. Write a program to check if a number is even or odd using the modulus operator.
+12. Take two numbers and print the result of all comparison operators (==, !=, >, <, >=, <=).
+13. Demonstrate the difference between / and // with 3 examples each.
+14. Write a program using the exponent operator to calculate x raised to the power y.
+15. Use logical operators (and, or, not) to check if a number is between 10 and 50.
+16. Write a program that demonstrates operator precedence with at least 5 operators in one expression.
+17. Take a number and print its bitwise AND, OR, XOR, and NOT with another number.
+
+SECTION 3: CONDITIONAL STATEMENTS
+--------------------------------------------------------------------------
+18. Check whether a number entered by the user is positive, negative, or zero.
+19. Check whether a given year is a leap year or not.
+20. Take three numbers and find the largest among them using if-elif-else.
+21. Build a simple calculator that takes two numbers and an operator (+, -, *, /) and performs the operation.
+22. Check if a given character is a vowel or consonant.
+23. Take marks as input and print the grade (A/B/C/D/F) based on ranges.
+24. Check whether a triangle is valid given its three angles (they must sum to 180).
+25. Write a program to check if a number is a multiple of both 3 and 5.
+26. Take a person's age and category (student/senior citizen/general) and calculate movie ticket price with discounts.
+
+SECTION 4: LOOPS (for, while)
+--------------------------------------------------------------------------
+27. Print numbers from 1 to 50 using a for loop.
+28. Print all even numbers between 1 and 100.
+29. Calculate the factorial of a number using a loop.
+30. Print the multiplication table of a given number.
+31. Find the sum of all natural numbers from 1 to n.
+32. Print the Fibonacci series up to n terms.
+33. Reverse a number using a while loop (e.g., 1234 -> 4321).
+34. Check whether a number is a palindrome (e.g., 121, 1331).
+35. Count the number of digits in a given number.
+36. Find the sum of digits of a number.
+37. Check whether a given number is prime.
+38. Print all prime numbers between 1 and 100.
+39. Print all Armstrong numbers between 1 and 1000 (e.g., 153 = 1^3+5^3+3^3).
+40. Print the following pattern using nested loops:
+    *
+    * *
+    * * *
+    * * * *
+41. Print a number pyramid pattern:
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+42. Print an inverted pyramid pattern of stars.
+43. Print a diamond pattern using stars.
+44. Write a program using break to find the first number divisible by 7 and 5 between 1 and 1000.
+45. Write a program using continue to print all numbers from 1 to 20 except multiples of 3.
+46. Find the GCD (HCF) of two numbers using a loop.
+47. Find the LCM of two numbers.
+48. Guess the number game: generate a random number and let the user guess it with hints (higher/lower).
+
+SECTION 5: STRINGS
+--------------------------------------------------------------------------
+49. Find the length of a string without using len().
+50. Reverse a string using slicing, and again using a loop.
+51. Check whether a string is a palindrome.
+52. Count the number of vowels and consonants in a string.
+53. Count the number of words in a sentence.
+54. Convert a string to uppercase and lowercase without using built-in functions.
+55. Check if two strings are anagrams of each other.
+56. Remove all whitespace from a string.
+57. Find the frequency of each character in a string.
+58. Write a program to capitalize the first letter of every word in a sentence (title case) manually.
+59. Check whether a string contains only digits, only alphabets, or is alphanumeric.
+60. Replace all occurrences of a character in a string without using replace().
+61. Find the first non-repeating character in a string.
+62. Write a program to check if a string starts/ends with a given substring.
+63. Split a sentence into words and print them in reverse order.
+64. Count the occurrences of a specific substring in a string.
+65. Write a program to remove duplicate characters from a string.
+66. Convert a given string into a list of characters and back into a string.
+67. Check if one string is a rotation of another (e.g., "abcd" and "cdab").
+68. Format a string using f-strings, .format(), and % formatting - show all three for the same output.
+
+ 
