@@ -1,5 +1,3 @@
-'''
-
 # import 
 
 # import takes all the built in function in python 
@@ -23,7 +21,7 @@ result = m.sqrt(9) #---> this gives 3 as output
 
 # this function tell or lists all the function in the library 
 print(dir(math))
-'''
+
 # we can import function or variable from the same program as well 
 # just see go to video sample
 # from sample import *
@@ -31,4 +29,4 @@ from sample import raja
 
 # print(sample)
 print(raja)# this is a function 
-print(raja())# returns data type as well as name as print statement 
+print(raja())# returns data type as well as name as print statement
