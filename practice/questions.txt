@@ -168,3 +168,14 @@ SECTION 9: FILE HANDLING & EXCEPTION HANDLING
 127. Create a custom exception class and raise it when a given age is negative.
 128. Write a program to read a CSV-like text file (comma-separated) and print it as a list of lists.
  
+
+SECTION 10: MINI PROJECTS (CONSOLIDATION)
+--------------------------------------------------------------------------
+129. Build a simple to-do list application (add, view, remove tasks) using a list, running in a loop until the user quits.
+130. Build a contact book using a dictionary (add, search, delete contacts) with a menu-driven interface.
+131. Build a number guessing game with limited attempts and a score at the end.
+132. Build a simple quiz application that asks 5 questions, takes input, and prints the final score.
+133. Build a basic library management system (add book, issue book, return book) using a list of dictionaries.
+134. Build a password strength checker (checks length, digits, uppercase, special characters).
+135. Build a basic expense tracker that logs expenses to a file and calculates the total at the end.
+ 
