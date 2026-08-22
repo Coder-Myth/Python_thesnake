@@ -24,4 +24,3 @@ employee1.popitem()#removes the last key value pair
 print(employee1)
 
 # del employee1 <-----deletes the dictionary------->
-
