@@ -152,3 +152,19 @@ SECTION 8: FUNCTIONS
 116. Write a function that simulates a simple ATM: takes balance and withdrawal amount, handles insufficient funds.
 117. Write a recursive function to reverse a string.
 118. Write a function to check if a number is an Armstrong number
+
+
+
+SECTION 9: FILE HANDLING & EXCEPTION HANDLING
+--------------------------------------------------------------------------
+119. Write a program to create a text file and write "Hello World" into it.
+120. Write a program to read the contents of a text file and print them.
+121. Write a program to append a new line to an existing text file.
+122. Write a program to count the number of lines, words, and characters in a text file.
+123. Write a program to copy the contents of one file into another.
+124. Write a program that handles division by zero using try-except.
+125. Write a program that handles an invalid input (e.g., entering a string instead of a number) using try-except.
+126. Write a program using try-except-else-finally to open a file that may not exist.
+127. Create a custom exception class and raise it when a given age is negative.
+128. Write a program to read a CSV-like text file (comma-separated) and print it as a list of lists.
+ 
