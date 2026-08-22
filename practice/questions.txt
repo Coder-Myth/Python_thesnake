@@ -131,3 +131,24 @@ SECTION 7: TUPLES, SETS, DICTIONARIES
 99. Write a program that checks if a key exists in a dictionary before accessing it.
 100. Create a nested dictionary to store information about 3 employees (name, age, salary) and print it neatly.
  
+
+SECTION 8: FUNCTIONS
+--------------------------------------------------------------------------
+101. Write a function to check if a number is prime.
+102. Write a function to calculate the factorial of a number using recursion.
+103. Write a function to calculate the nth Fibonacci number using recursion.
+104. Write a function with default arguments to calculate the area of a rectangle (default breadth = 1).
+105. Write a function that accepts *args and returns the sum of all arguments.
+106. Write a function that accepts **kwargs and prints all key-value pairs.
+107. Write a function to check if a string is a palindrome.
+108. Write a function that returns multiple values (e.g., min and max of a list) and unpack them.
+109. Write a function to convert temperature between Celsius and Fahrenheit (two functions, or one with a mode parameter).
+110. Write a recursive function to find the GCD of two numbers.
+111. Write a function that takes a list and returns a new list with only unique elements.
+112. Demonstrate the difference between local and global variables with a function example.
+113. Write a lambda function to calculate the square of a number, and use it with map() on a list.
+114. Use filter() with a lambda to extract even numbers from a list.
+115. Use reduce() (from functools) with a lambda to find the product of all numbers in a list.
+116. Write a function that simulates a simple ATM: takes balance and withdrawal amount, handles insufficient funds.
+117. Write a recursive function to reverse a string.
+118. Write a function to check if a number is an Armstrong number
