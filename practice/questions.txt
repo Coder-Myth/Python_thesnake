@@ -179,3 +179,14 @@ SECTION 10: MINI PROJECTS (CONSOLIDATION)
 134. Build a password strength checker (checks length, digits, uppercase, special characters).
 135. Build a basic expense tracker that logs expenses to a file and calculates the total at the end.
  
+
+==========================================================================
+HOW TO USE THIS LIST:
+- Solve in order; each section builds on the previous one's concepts.
+- Don't skip the pattern-printing questions (40-43) - they build loop intuition
+  that helps a lot with NumPy array thinking later.
+- Section 8 (Functions) and Section 9 (Files/Exceptions) are the real bridge
+  into more advanced Python and eventually NumPy/Pandas.
+- Push solved questions to your numpy_python or a new python_practice repo
+  on GitHub (Coder-Myth) - one file per section works well for portfolio visibility.
+==========================================================================
