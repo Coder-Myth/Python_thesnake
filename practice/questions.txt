@@ -93,4 +93,41 @@ SECTION 5: STRINGS
 67. Check if one string is a rotation of another (e.g., "abcd" and "cdab").
 68. Format a string using f-strings, .format(), and % formatting - show all three for the same output.
 
+ SECTION 6: LISTS
+--------------------------------------------------------------------------
+69. Create a list of 10 numbers and find the maximum and minimum without using max()/min().
+70. Find the sum and average of elements in a list.
+71. Reverse a list without using the reverse() method.
+72. Remove duplicate elements from a list.
+73. Find the second largest number in a list.
+74. Count the occurrences of each element in a list.
+75. Merge two lists and sort the result without using sort().
+76. Find common elements between two lists.
+77. Find elements present in one list but not the other.
+78. Rotate a list by k positions (left and right).
+79. Write a program to separate even and odd numbers from a list into two new lists.
+80. Flatten a nested list (e.g., [[1,2],[3,4]] -> [1,2,3,4]).
+81. Find all pairs in a list whose sum equals a given target number.
+82. Implement a basic bubble sort on a list.
+83. Implement a basic linear search and binary search on a list.
+84. Write a program to find the median of a list of numbers.
+85. Use list comprehension to create a list of squares of numbers from 1 to 20.
+86. Use list comprehension to filter out only even numbers from a list.
+87. Write a program to copy a list (shallow copy) and demonstrate why it differs from just assignment.
+
+SECTION 7: TUPLES, SETS, DICTIONARIES
+--------------------------------------------------------------------------
+88. Create a tuple and demonstrate that it is immutable (try/except on modification).
+89. Swap two numbers using tuple unpacking.
+90. Convert a list to a tuple and a tuple to a list.
+91. Find the intersection and union of two sets.
+92. Remove duplicates from a list using a set.
+93. Create a dictionary of 5 students with their marks and print the topper.
+94. Count the frequency of each word in a sentence using a dictionary.
+95. Merge two dictionaries.
+96. Write a program to invert a dictionary (swap keys and values).
+97. Sort a dictionary by its values.
+98. Take a dictionary of items and prices and calculate the total bill.
+99. Write a program that checks if a key exists in a dictionary before accessing it.
+100. Create a nested dictionary to store information about 3 employees (name, age, salary) and print it neatly.
  
