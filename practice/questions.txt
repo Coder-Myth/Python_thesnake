@@ -93,4 +93,100 @@ SECTION 5: STRINGS
 67. Check if one string is a rotation of another (e.g., "abcd" and "cdab").
 68. Format a string using f-strings, .format(), and % formatting - show all three for the same output.
 
+ SECTION 6: LISTS
+--------------------------------------------------------------------------
+69. Create a list of 10 numbers and find the maximum and minimum without using max()/min().
+70. Find the sum and average of elements in a list.
+71. Reverse a list without using the reverse() method.
+72. Remove duplicate elements from a list.
+73. Find the second largest number in a list.
+74. Count the occurrences of each element in a list.
+75. Merge two lists and sort the result without using sort().
+76. Find common elements between two lists.
+77. Find elements present in one list but not the other.
+78. Rotate a list by k positions (left and right).
+79. Write a program to separate even and odd numbers from a list into two new lists.
+80. Flatten a nested list (e.g., [[1,2],[3,4]] -> [1,2,3,4]).
+81. Find all pairs in a list whose sum equals a given target number.
+82. Implement a basic bubble sort on a list.
+83. Implement a basic linear search and binary search on a list.
+84. Write a program to find the median of a list of numbers.
+85. Use list comprehension to create a list of squares of numbers from 1 to 20.
+86. Use list comprehension to filter out only even numbers from a list.
+87. Write a program to copy a list (shallow copy) and demonstrate why it differs from just assignment.
+
+SECTION 7: TUPLES, SETS, DICTIONARIES
+--------------------------------------------------------------------------
+88. Create a tuple and demonstrate that it is immutable (try/except on modification).
+89. Swap two numbers using tuple unpacking.
+90. Convert a list to a tuple and a tuple to a list.
+91. Find the intersection and union of two sets.
+92. Remove duplicates from a list using a set.
+93. Create a dictionary of 5 students with their marks and print the topper.
+94. Count the frequency of each word in a sentence using a dictionary.
+95. Merge two dictionaries.
+96. Write a program to invert a dictionary (swap keys and values).
+97. Sort a dictionary by its values.
+98. Take a dictionary of items and prices and calculate the total bill.
+99. Write a program that checks if a key exists in a dictionary before accessing it.
+100. Create a nested dictionary to store information about 3 employees (name, age, salary) and print it neatly.
  
+
+SECTION 8: FUNCTIONS
+--------------------------------------------------------------------------
+101. Write a function to check if a number is prime.
+102. Write a function to calculate the factorial of a number using recursion.
+103. Write a function to calculate the nth Fibonacci number using recursion.
+104. Write a function with default arguments to calculate the area of a rectangle (default breadth = 1).
+105. Write a function that accepts *args and returns the sum of all arguments.
+106. Write a function that accepts **kwargs and prints all key-value pairs.
+107. Write a function to check if a string is a palindrome.
+108. Write a function that returns multiple values (e.g., min and max of a list) and unpack them.
+109. Write a function to convert temperature between Celsius and Fahrenheit (two functions, or one with a mode parameter).
+110. Write a recursive function to find the GCD of two numbers.
+111. Write a function that takes a list and returns a new list with only unique elements.
+112. Demonstrate the difference between local and global variables with a function example.
+113. Write a lambda function to calculate the square of a number, and use it with map() on a list.
+114. Use filter() with a lambda to extract even numbers from a list.
+115. Use reduce() (from functools) with a lambda to find the product of all numbers in a list.
+116. Write a function that simulates a simple ATM: takes balance and withdrawal amount, handles insufficient funds.
+117. Write a recursive function to reverse a string.
+118. Write a function to check if a number is an Armstrong number
+
+
+
+SECTION 9: FILE HANDLING & EXCEPTION HANDLING
+--------------------------------------------------------------------------
+119. Write a program to create a text file and write "Hello World" into it.
+120. Write a program to read the contents of a text file and print them.
+121. Write a program to append a new line to an existing text file.
+122. Write a program to count the number of lines, words, and characters in a text file.
+123. Write a program to copy the contents of one file into another.
+124. Write a program that handles division by zero using try-except.
+125. Write a program that handles an invalid input (e.g., entering a string instead of a number) using try-except.
+126. Write a program using try-except-else-finally to open a file that may not exist.
+127. Create a custom exception class and raise it when a given age is negative.
+128. Write a program to read a CSV-like text file (comma-separated) and print it as a list of lists.
+ 
+
+SECTION 10: MINI PROJECTS (CONSOLIDATION)
+--------------------------------------------------------------------------
+129. Build a simple to-do list application (add, view, remove tasks) using a list, running in a loop until the user quits.
+130. Build a contact book using a dictionary (add, search, delete contacts) with a menu-driven interface.
+131. Build a number guessing game with limited attempts and a score at the end.
+132. Build a simple quiz application that asks 5 questions, takes input, and prints the final score.
+133. Build a basic library management system (add book, issue book, return book) using a list of dictionaries.
+134. Build a password strength checker (checks length, digits, uppercase, special characters).
+135. Build a basic expense tracker that logs expenses to a file and calculates the total at the end.
+ 
+
+==========================================================================
+HOW TO USE THIS LIST:
+- Solve in order; each section builds on the previous one's concepts.
+- Don't skip the pattern-printing questions (40-43) - they build loop intuition
+  that helps a lot with NumPy array thinking later.
+- Section 8 (Functions) and Section 9 (Files/Exceptions) are the real bridge
+  into more advanced Python and eventually NumPy/Pandas.
+- Push solved questions to your numpy_python or a new python_practice repo
+  on GitHub (Coder-Myth) - one file per section works well for portfolio visibility.
+==========================================================================
