@@ -9,7 +9,14 @@ try:
         if user_inp.isdigit():
             b = int(user_inp)
             if b == 1 or b == 2 or b == 3:
-                    r = random.randint(1, 3) 
+                    r = random.randint(1, 3)
+                    # for rock as input
+                    if r == 1 and b == 1:
+                        print("Draw\n\n")
+                    elif r == 1 and b == 2:
+                        print("Win\n\n")
+                    elif r == 1 and b == 3:
+                        print("Lose\n\n")  
             elif b == 4:
                 print("<<<<<<<<<<<<<See You Next Time>>>>>>>>>>>>>")
                 break
