@@ -35,5 +35,3 @@ b = open("Locationoffile.txt", "rb")  # here r ---> read and b---> binary mode
 # shortcut method: 
 with open('sample.txt', 'w') as a:#any method can be used in this
     a.write("hello World!2")
-
-    
