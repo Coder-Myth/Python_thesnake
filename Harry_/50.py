@@ -25,5 +25,3 @@ f= open('sample2.txt', 'w')
 lines=['hello\n', 'World\n', '!\n', "variable\n"]
 f.writelines(lines)
 f.close()
-
- 
