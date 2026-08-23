@@ -24,6 +24,14 @@ try:
                         print("Win\n\n")
                     elif r == 2 and b == 3:
                         print("Draw\n\n") 
+                    # for paper as input
+                    if r == 3 and b == 1:
+                        print("Win\n\n")
+                    elif r == 3 and b == 2:
+                        print("Lose\n\n")
+                    elif r == 3 and b == 3:
+                        print("Draw\n\n")
+                 
             elif b == 4:
                 print("<<<<<<<<<<<<<See You Next Time>>>>>>>>>>>>>")
                 break
@@ -34,12 +42,7 @@ except:
     print("<----Restart the Game--->\t")
 
 
-
-# input      1  2   3
-# rock    1  D  W   L
-# scissor 2  L  D   W
-# paper   3  W  L   D
-
+ 
 
 # the cleaner way for this is to make logic instead of the using numbers just like b==r i.e. draw then the three case in which i win keep them in or and use else to get other outputs
 
