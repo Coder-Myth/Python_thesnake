@@ -1,7 +1,7 @@
 # rock paper scissor:
 import random
 
-
+try:
 
 except:
     print("<----Restart the Game--->\t")
