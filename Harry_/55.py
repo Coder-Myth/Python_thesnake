@@ -16,7 +16,14 @@ try:
                     elif r == 1 and b == 2:
                         print("Win\n\n")
                     elif r == 1 and b == 3:
-                        print("Lose\n\n")  
+                        print("Lose\n\n") 
+                    # for scissor as input
+                    if r == 2 and b == 1:
+                        print("Lose\n\n")
+                    elif r == 2 and b == 2:
+                        print("Win\n\n")
+                    elif r == 2 and b == 3:
+                        print("Draw\n\n") 
             elif b == 4:
                 print("<<<<<<<<<<<<<See You Next Time>>>>>>>>>>>>>")
                 break
