@@ -19,7 +19,7 @@ print(d)
 
 #  reduce :
 # 1. we need to import reduce this is not built in 
-# this may be  
+# this may be  used in libraries  
 from functools import reduce
 
 list=[1,2,3]
