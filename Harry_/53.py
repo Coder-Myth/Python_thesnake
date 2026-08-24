@@ -28,3 +28,5 @@ list=[1,2,3]
 
 c = reduce(lambda x,y: (x*y) , list)+10
 print(c)
+
+# mostly we use this 
