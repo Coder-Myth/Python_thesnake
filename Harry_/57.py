@@ -22,5 +22,5 @@ a.Details()
 b = info()#object 2 
 b.name = "Dhairya"
 b.Class = "12th" 
-
 b.Branch = "Aiml" 
+b.Details()
