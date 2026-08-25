@@ -17,3 +17,8 @@ a.name = "Raja"
 a.Class = "12th"
 a.Branch = "cse"
 a.Details() 
+
+
+b = info()#object 2 
+b.name = "Dhairya"
+b.Class = "12th" 
