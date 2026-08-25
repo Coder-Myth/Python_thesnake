@@ -11,3 +11,4 @@ class person:
         print(f"{self.name} is a fresher\nJoined as {self.occupation}")
  
 a= person("Raja", "SDE")#this store the value in name and occupation
+# whenver the info is called then it prints the program
