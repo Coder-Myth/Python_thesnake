@@ -19,7 +19,7 @@ print(d)
 
 #  reduce :
 # 1. we need to import reduce this is not built in 
-
+# this may be  used in libraries  like numpy pandas 
 from functools import reduce
 
 list=[1,2,3]
@@ -28,3 +28,5 @@ list=[1,2,3]
 
 c = reduce(lambda x,y: (x*y) , list)+10
 print(c)
+
+# mostly we use this in numpy as an to maximize output in an array
