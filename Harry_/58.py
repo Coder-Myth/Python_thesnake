@@ -2,3 +2,11 @@
 #               this in terms helps to directly store value without giving varaible in different steps 
 
 #self is passed as an arguments
+class person:
+    def __init__(self,name , occupation):
+        print("constructor Always called")
+        self.name=name
+        self.occupation=occupation
+    def information(self):
+        print(f"{self.name} is a fresher\nJoined as {self.occupation}")
+ 
