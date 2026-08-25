@@ -10,3 +10,4 @@ class person:
     def information(self):
         print(f"{self.name} is a fresher\nJoined as {self.occupation}")
  
+a= person("Raja", "SDE") 
