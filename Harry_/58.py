@@ -13,4 +13,4 @@ class person:
 a= person("Raja", "SDE")#this store the value in name and occupation
 # whenver the info is called then it prints the program
 
-a.information()#this prints the value
+a.information()#this prints the value given in string of function 
