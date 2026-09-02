@@ -11,3 +11,5 @@ a=int(input("Enter Your Image: "))
 
 a = int(input("Enter Your Number :"))
 b = int(input("Enter Your Number :"))
+
+print
