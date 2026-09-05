@@ -2,4 +2,6 @@
 # this is a function that when called it add the function 
 
 def hello():
-    
+
+
+# function inside another function 
