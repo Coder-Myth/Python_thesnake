@@ -33,3 +33,9 @@ class book():
 
     def details_book(self):
         print(f"The \"{self.book_name}\" is written by {self.book_author},\nthe best book under {self.book_price}")
+
+a =book()
+a.book_name="venice"
+a.book_author="shakespeare"
+a.book_price="400 /-"
+ 
