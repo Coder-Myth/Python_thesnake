@@ -40,4 +40,4 @@ a.book_author="shakespeare"
 a.book_price="400 /-"
 
 
-a.details_book
+a.details_book()
