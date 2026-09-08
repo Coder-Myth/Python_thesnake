@@ -25,3 +25,16 @@ obj = book("raj", 550)
 obj.book_price =450
 print(obj.book_price)
 obj.info_book()
+
+
+class bank_account:
+    def __init__(self, "account_holder", "balance"):
+        self.account_holder= account_holder
+        self._balance= balance
+
+    @balance
+    def balance(self):
+        return self._balance
+
+    
+    
