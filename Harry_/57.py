@@ -38,6 +38,4 @@ a =book()
 a.book_name="venice"
 a.book_author="shakespeare"
 a.book_price="400 /-"
-
-
 a.details_book()
