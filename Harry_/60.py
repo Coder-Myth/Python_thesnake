@@ -22,19 +22,31 @@ class book:
 
 
 obj = book("raj", 550)
-obj.book_price =450
+obj.book_price = 450
 print(obj.book_price)
 obj.info_book()
 
 
 class bank_account:
-    def __init__(self, "account_holder", "balance"):
-        self.account_holder= account_holder
-        self._balance= balance
+    def __init__(self, account_holder, balance):
+        self.account_holder = account_holder
+        self._balance = balance
 
-    @balance
+    @property
     def balance(self):
         return self._balance
 
-    
-    
+    @balance.setter
+    def negative_balance(self, new_balance):
+        self._balance = new_balance
+
+    def show_account(self):
+        print(
+            f"Account Number: {self.account_holder} has {self.balance} rupees in his account"
+        )
+
+
+obj2 = bank_account(4552658845, 45000)
+print(obj2._balance)
+
+obj2.show_account()
