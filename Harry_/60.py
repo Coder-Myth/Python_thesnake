@@ -2,8 +2,7 @@
 # getters and setters :
 # the @property is the getter
 # setter sets the value
-# learn or summarise this but this should be done again 
-
+# learn or summarise this but this should be done again
 
 
 class book:
@@ -49,6 +48,6 @@ class bank_account:
 
 
 obj2 = bank_account(4552658845, 45000)
-obj2.balance = 40000 
-print(obj2._balance)
+obj2.balance = 40000
+print(obj2._balance)  # getter called
 obj2.show_account()
