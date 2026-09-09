@@ -1,7 +1,7 @@
 class book:
     def __init__(self, name, price, copy):
         self.book_name = name
-        self.book_price = price
+        self._book_price = price# <---protected ---> but can be easily accessed i.e. more detail in getter and setter
         self.__book_copy = copy  # <---kept private --->
 
     def book(self):
