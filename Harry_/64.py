@@ -2,6 +2,7 @@
 class library:
 
     def list_book(self):
+        print("<<<<<The Books>>>>>")
         self.books = [
             "Python Crash Course",
             "Automate the Boring Stuff with Python",
@@ -16,7 +17,7 @@ class library:
         ]
         for i in range(0, len(self.books)):
             print(i, "===>", self.books[i])
-            print("<<<<<These are the books>>>>>")
+        print("<<<<<These are the books>>>>>")
 
     books = []
 
@@ -24,12 +25,12 @@ class library:
         pass
 
     def books_in_cart(self):
-        global books
+
         for i in range(1, len(self.books)):
-            if len(self.books) == None:
+            if len(self.books) == 0:
                 print("No Books in the cart\n")
             else:
-                print(books[i])
+                print(self.books[i])
 
 
 lib = library()
