@@ -22,11 +22,11 @@ class library:
     books = []
 
     def add_book(self):
+        print("Hello")
         pass
 
     def books_in_cart(self):
-
-        for i in range(1, len(self.books)):
+        for i in range(0, len(self.books)):
             if len(self.books) == 0:
                 print("No Books in the cart\n")
             else:
