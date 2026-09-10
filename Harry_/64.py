@@ -1,6 +1,5 @@
 # library management system:
 class library:
-    books = []
 
     def list_book(self):
         self.books = [
@@ -17,19 +16,20 @@ class library:
         ]
         for i in range(0, len(self.books)):
             print(i, "===>", self.books[i])
+            print("<<<<<These are the books>>>>>")
+
+    books = []
+
+    def add_book(self):
+        pass
 
     def books_in_cart(self):
         global books
-        for i in range(0, len(books)):
-            print(books[i])
-
-    def add_book(self):
-        global books
-        user_book_input = input("Enter Your Book Index:\n")
-        global self_books
-        for i in range(1, len(self_books)):
-            if user_book_input == i:
-                print(self.books[i])
+        for i in range(1, len(self.books)):
+            if len(self.books) == None:
+                print("No Books in the cart\n")
+            else:
+                print(books[i])
 
 
 lib = library()
@@ -39,7 +39,7 @@ while True:
     user_status = int(
         input(
             (
-                "Enter Your choice \n 1==> List all books\n 2==> Add Books\n3==> book in cart\n4==> bill and exit "
+                "1==> List all books\n 2==> Add Books\n3==> book in cart\n4==> bill and exit "
             )
         )
     )
