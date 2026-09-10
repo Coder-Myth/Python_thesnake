@@ -18,11 +18,13 @@ class library:
         for i in range(0, len(self.books)):
             print(i, "===>", self.books[i])
         print("<<<<<These are the books>>>>>")
-
+    
     books = []
 
     def add_book(self):
-        print("Hello")
+        user_add_book = input("<<<<<<<<<<<<<<<<<<<<<<Enter Your Choice:>>>")
+        self.book
+        self.book.append(self.book[user_add_book])
         pass
 
     def books_in_cart(self):
