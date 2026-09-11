@@ -37,3 +37,8 @@ class pizza:
         print(
             f"Your Pizza is {self.size_of_pizza} and it has {self.topping_on_pizza} toppings on the pizza"
         )
+
+
+
+p1 = pizza(None, None)
+p1.size_of_pizza() 
