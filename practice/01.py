@@ -3,7 +3,7 @@
 
 class pizza:
     def __init__(self, size, topping):
-        # mostly covers
+        
         print("<<Welcome to Our Restaurant>>\t\n")
 
         self.size_of_pizza = input(
