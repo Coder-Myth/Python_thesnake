@@ -3,18 +3,16 @@
 
 class pizza:
     def __init__(self, size, topping):
-        
         print("<<Welcome to Our Restaurant>>\t\n")
+        self.size = input("Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large")
 
-        self.size_of_pizza = input(
-            "Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large"
-        )
-        self.size_of_pizza = int(self.size_of_pizza)
-        if self.size_of_pizza == 1:
+    def size_of_pizza(self, size):
+        self.size = int(self.size)
+        if self.size == 1:
             return "Small"
-        elif self.size_of_pizza == 2:
+        elif self.size == 2:
             return "Medium"
-        elif self.size_of_pizza == 3:
+        elif self.size == 3:
             return "Large"
 
         topping = []
