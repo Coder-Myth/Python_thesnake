@@ -42,3 +42,5 @@ class pizza:
 
 p1 = pizza(None, None)
 p1.size_of_pizza() 
+
+p1.add_toppings()
