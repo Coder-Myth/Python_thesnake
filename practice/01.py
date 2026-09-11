@@ -4,9 +4,11 @@
 class pizza:
     def __init__(self, size, topping):
         print("<<Welcome to Our Restaurant>>\t\n")
-        self.size = input("Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large")
+        self.size = input(
+            "Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large"
+        )
 
-    def size_of_pizza(self, size):
+    def size_of_pizza(self):
         self.size = int(self.size)
         if self.size == 1:
             return "Small"
