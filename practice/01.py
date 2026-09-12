@@ -7,14 +7,14 @@ class pizza:
         self.size = input("Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large")
         self.topping = []
 
-    def size_of_pizza(self, size_of_pizza):
-        self.size_of_pizza = int(self.size)
-        if self.size_of_pizza == 1:
-            self.size_of_pizza == "Small"
-        elif self.size_of_pizza == 2:
-            self.size_of_pizza == "Medium"
-        elif self.size_of_pizza == 3:
-            self.size_of_pizza == "Large"
+    def size_of_pizza(self):
+        self.size = int(self.size)
+        if self.size == 1:
+            self.size == "Small"
+        elif self.size == 2:
+            self.size == "Medium"
+        elif self.size == 3:
+            self.size == "Large"
 
     def add_toppings(self):
         while True:
