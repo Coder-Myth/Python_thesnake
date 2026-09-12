@@ -7,24 +7,24 @@ class pizza:
         self.size = input(
             "Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large"
         )
+        self.topping = []
 
     def size_of_pizza(self):
         self.size = int(self.size)
         if self.size == 1:
-            return "Small"
+            self.size == "Small"
         elif self.size == 2:
-            return "Medium"
+            self.size =="Medium"
         elif self.size == 3:
-            return "Large"
+            self.size =="Large"
 
-        topping = []
         while True:
             self.topping_on_pizza = input(
                 "Among The Topping You Would Like To Have:\t\nClick 1 for Tomato\nClick 2 for Capsicum\nClick 3 for sauce\nClick 4 for Mayonise\nClick 5 to Exit and bill"
             )
             self.topping_on_pizza = int(self.topping_on_pizza)
             if self.topping_on_pizza == 1:
-                return "Tomato"
+                self.topping == "Tomato"
             elif self.topping_on_pizza == 2:
                 return "Capsicum"
             elif self.topping_on_pizza == 3:
