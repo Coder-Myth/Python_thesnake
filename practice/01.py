@@ -5,16 +5,16 @@ class pizza:
     def __init__(self, size, topping):
         print("<<Welcome to Our Restaurant>>\t\n")
         self.size = input("Size of Pizza:\n1 ===> Small\n2 ===> Medium\n3 ===> Large")
-        self.topping = []
+        self.toppings = []
 
     def size_of_pizza(self):
         self.size = int(self.size)
         if self.size == 1:
-            self.size == "Small"
+            self.size = "Small"
         elif self.size == 2:
-            self.size == "Medium"
+            self.size = "Medium"
         elif self.size == 3:
-            self.size == "Large"
+            self.size = "Large"
 
     def add_toppings(self):
         while True:
@@ -23,19 +23,19 @@ class pizza:
             )
             topping_on_pizza = int(topping_on_pizza)
             if topping_on_pizza == 1:
-                self.topping.append("Tomato")
+                self.toppings.append("Tomato")
             elif topping_on_pizza == 2:
-                self.topping.append("Capsicum")
+                self.toppings.append("Capsicum")
             elif topping_on_pizza == 3:
-                self.topping.append("Sauce")
+                self.toppings.append("Sauce")
             elif topping_on_pizza == 4:
-                self.topping.append("Mayonise")
+                self.toppings.append("Mayonise")
             elif topping_on_pizza == 5:
                 break
 
     def describe(self):
         print(
-            f"Your Pizza is {self.size} and it has {self.add_toppings} toppings on the pizza"
+            f"Your Pizza is {self.size} and it has {self.toppings} toppings on the pizza"
         )
 
 
