@@ -12,6 +12,7 @@ print(list)
 
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9, "Harry", True]
 print(list)
+print(list[1:-4])
 
 # check something in python
 
@@ -44,3 +45,6 @@ print(lst)
 
 # you can makechanges in variable i.e i*2, i+78
 
+list_2 =[i*2 for i in range(9)]
+
+print(list_2)
