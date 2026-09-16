@@ -1,3 +1,6 @@
+#till here i am done with the notes 
+
+
 # library management system:
 class library:
 
