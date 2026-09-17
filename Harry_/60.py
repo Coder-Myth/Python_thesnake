@@ -16,7 +16,7 @@ class book:
         return self._book_price
 
     @book_price.setter
-    def book_price(self, new_price):
+    def new_book_price(self, new_price):
         self._book_price = new_price
 
     def info_book(self):
@@ -24,9 +24,13 @@ class book:
 
 
 obj = book("raj", 550)
-obj.book_price = 450
-print(obj.book_price)
-obj.info_book()
+
+# this is getter syntax : print(object_name.function_name[getter_function_name])
+print(obj.book_price)# this is getter 
+
+#this is setter syntax: object_name.functionname[setter_function_name] = new_value
+obj.new_book_price = 450#this sets price
+obj.info_book()#this calls function that sets the value and return the new value
 
 
 class bank_account:
