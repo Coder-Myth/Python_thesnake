@@ -1,8 +1,9 @@
 #  day 60 code with harry python
-# getters and setters :
-# the @property is the getter
-# setter sets the value
-# learn or summarise this but this should be done again
+
+#getter : used to access the private or hidden variables that cannot be easily and directly accessed @property
+
+# setter : allows you to change the private value as well check the new value entered
+# @variable_name.setter i.e. private varable or argument
 
 
 class book:
