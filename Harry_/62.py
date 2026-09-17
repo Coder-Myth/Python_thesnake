@@ -1,8 +1,3 @@
-#getter : used to access the private or hidden variables that cannot be easily and directly accessed @property
-
-# setter : allows you to change the private value as well check the new value entered
-# @variable_name.setter i.e. private varable or argument
-
 
 class book:
     def __init__(self, name, price, copy):
