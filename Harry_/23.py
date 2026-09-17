@@ -14,7 +14,7 @@ list.reverse()  # - ------------
 
 list.index(5)  # index starts fom zero and moves to the 5 and give its output
 
-list.count("#value")  # count the times value inseted comes in it
+list.count("#value")  # count the times value inserted comes in it
 
 list.pop(7) #removes 7 from list
  
@@ -28,11 +28,11 @@ print(list)
 list.copy()#this has got a catch in the list
 
 m= list
-m[0]=69
+m[0]=69 #value of the list specific index is changed 
 
 print(list)#expected output [1,2,3,4,5] but it comes out to be [69,2,3,4,5]
 
-# i.e. we use list.copy()
+# i.e. we use list.copy() 
 
 # this creates a new list withthe same number of elements in list and now the new changes are there till the new list only 
 
