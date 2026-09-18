@@ -23,5 +23,10 @@ s1.show_details()
 # for s1 this uses class variable
 
 s2 = student("Dhananjay", 38)
+s2.school_name="AITR"# this is an instance variable
 s2.show_details()
 # for s2 this uses instance varaible i.e. it only changes for the student s2
+
+s3=student("Dhairya",37)
+s3.show_details()
+#this again uses class variable because this 
