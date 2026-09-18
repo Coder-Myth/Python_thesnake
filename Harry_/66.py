@@ -14,7 +14,7 @@ class student:
 
     def show_details(self):
         print(
-            f"Roll Number {self.roll_number} named {self.student_name} studied from this sour school {self.school_name} "
+            f"Roll Number {self.roll_number} named {self.student_name} studied from this our school {self.school_name} "
         )
 
 
@@ -23,4 +23,5 @@ s1.show_details()
 # for s1 this uses class variable
 
 s2 = student("Dhananjay", 38)
+s2.show_details()
 # for s2 this uses instance varaible i.e. it only changes for the student s2
