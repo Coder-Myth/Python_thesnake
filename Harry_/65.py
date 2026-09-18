@@ -21,4 +21,4 @@ class add:
 sum_1 = add(1)
 final = sum_1.update(5)
 print(final)
-print(add.mean(4,5))# this is static method that can be directly called as well now requirement for the self 
+print(add.mean(4,5))# this is static method that can be directly called as well now requirement for the self .keyword
