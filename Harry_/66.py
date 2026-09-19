@@ -8,9 +8,14 @@
 class student:
     school_name = "LWCS"
 
-    def __init__(self, student_name, roll_number):
+    def __init__(self, student_name, roll_number, fees_pending):
         self.student_name = student_name
         self.roll_number = roll_number
+        self.__fees_pending = fees_pending
+
+    @property
+    def Fees(self):
+        return self.__fees_pending
 
     def show_details(self):
         print(
