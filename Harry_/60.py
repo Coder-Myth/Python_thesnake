@@ -1,9 +1,14 @@
 #  day 60 code with harry python
 
-#getter : used to access the private or hidden variables that cannot be easily and directly accessed @property
+# getter : used to access the private or hidden variables that cannot be easily and directly accessed @property
 
 # setter : allows you to change the private value as well check the new value entered
 # @variable_name.setter i.e. private varable or argument
+
+# conditions for setter:
+# 1. name of getter and function and the @mark_name.
+# 2. setter should be the same hidden or protected variable should be the same.
+# 3. else is the same process.
 
 
 class book:
@@ -26,11 +31,11 @@ class book:
 obj = book("raj", 550)
 
 # this is getter syntax : print(object_name.function_name[getter_function_name])
-print(obj.book_price)# this is getter 
+print(obj.book_price)  # this is getter
 
-#this is setter syntax: object_name.functionname[setter_function_name] = new_value
-obj.new_book_price = 450#this sets price
-obj.info_book()#this calls function that sets the value and return the new value
+# this is setter syntax: object_name.functionname[setter_function_name] = new_value
+obj.new_book_price = 450  # this sets price
+obj.info_book()  # this calls function that sets the value and return the new value
 
 
 class bank_account:

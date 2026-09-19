@@ -18,7 +18,7 @@ class student:
         return self._fees_pending
 
     @fees_pending.setter
-    def fees_pending(self, new_amount):
+    def fees_pending_amount(self, new_amount):
         self._fees_pending = new_amount
 
     def show_details(self):
@@ -32,7 +32,7 @@ s1.show_details()
 print(s1.fees_pending)
 # for s1 this uses class variable
 
-s1.fees_pending = 25000
+s1.fees_pending_amount = 25000
 # calls the setter — sets self._fees_pending to 25000
 s1.show_details()
 
