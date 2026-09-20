@@ -78,6 +78,15 @@ class library:
     def __init__(self, user_input):
         self.user_input = user_input
 
+        if self.user_input == 1:
+            self.list_books()
+
+        elif self.user_input == 2:
+            self.add_books()
+
+        elif self.user_input == 3:
+            self.books_in_cart()
+
     def list_books(self):
         books = [
             "Python Crash Course",
@@ -96,18 +105,10 @@ class library:
 
     def add_books(self):
         self.user_input
+        pass
 
     def books_in_cart(self):
         pass
-
-    if user_input == 1:
-        list_books()
-
-    elif user_input == 2:
-        list_books()
-
-    elif user_input == 3:
-        list_books()
 
 
 user_1 = library(1)
