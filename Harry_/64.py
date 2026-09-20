@@ -68,3 +68,29 @@ while True:
         lib.books_in_cart()
     else:
         print("<<<INVALID INPUT>>>")
+
+
+# library system
+
+
+class library:
+    def __init__(self, user_input):
+        self.user_input = user_input
+        if user_input == 1:
+            list_books()
+        elif user_input == 2:
+            list_books()
+        elif user_input == 3:
+            list_books()
+
+        def list_books(self):
+            pass
+
+        def add_books(self):
+            pass
+
+        def books_in_cart(self):
+            pass
+
+
+user_1 = library(1)
