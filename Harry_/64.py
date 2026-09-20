@@ -1,4 +1,4 @@
-#till here i am done with the notes 
+"""#till here i am done with the notes
 
 
 # library management system:
@@ -33,8 +33,8 @@ class library:
             else:
                 continue
             pass
-        # 1. first store the index  
-        # 2. now go to the self.books 
+        # 1. first store the index
+        # 2. now go to the self.books
         # 3. read the index and return in the book name from that index
 
         pass
@@ -69,6 +69,7 @@ while True:
     else:
         print("<<<INVALID INPUT>>>")
 
+"""
 
 # library system
 
@@ -76,21 +77,37 @@ while True:
 class library:
     def __init__(self, user_input):
         self.user_input = user_input
-        if user_input == 1:
-            list_books()
-        elif user_input == 2:
-            list_books()
-        elif user_input == 3:
-            list_books()
 
-        def list_books(self):
-            pass
+    def list_books(self):
+        books = [
+            "Python Crash Course",
+            "Automate the Boring Stuff with Python",
+            "The Pragmatic Programmer",
+            "Clean Code",
+            "Fluent Python",
+            "Head First Python",
+            "Effective Python",
+            "Learning Python",
+            "Think Python",
+            "Python Cookbook",
+        ]
+        for i in range(len(books)):
+            print(i + 1, "==>", books[i])
 
-        def add_books(self):
-            pass
+    def add_books(self):
+        self.user_input
 
-        def books_in_cart(self):
-            pass
+    def books_in_cart(self):
+        pass
+
+    if user_input == 1:
+        list_books()
+
+    elif user_input == 2:
+        list_books()
+
+    elif user_input == 3:
+        list_books()
 
 
 user_1 = library(1)
