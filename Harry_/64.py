@@ -1,7 +1,5 @@
-"""#till here i am done with the notes
+# library management system: / Pizaa Base size and the topping adding code :
 
-
-# library management system:
 class library:
 
     books = [
