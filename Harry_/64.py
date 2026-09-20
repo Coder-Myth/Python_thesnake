@@ -71,24 +71,11 @@ while True:
 
 """
 
-# library system
-
 
 class library:
     def __init__(self, user_input):
         self.user_input = user_input
-
-        if self.user_input == 1:
-            self.list_books()
-
-        elif self.user_input == 2:
-            self.add_books()
-
-        elif self.user_input == 3:
-            self.books_in_cart()
-
-    def list_books(self):
-        books = [
+        self.books = [
             "Python Crash Course",
             "Automate the Boring Stuff with Python",
             "The Pragmatic Programmer",
@@ -100,16 +87,30 @@ class library:
             "Think Python",
             "Python Cookbook",
         ]
-        for i in range(len(books)):
-            print(i + 1, "==>", books[i])
+        self.books_added = []
+
+        if self.user_input == 1:
+            self.list_books()
+        elif self.user_input == 2:
+            self.add_books()
+        elif self.user_input == 3:
+            self.books_in_cart()
+
+    def list_books(self):
+        for i in range(len(self.books)):
+            print(i + 1, "==>", self.books[i])
 
     def add_books(self):
-        # index from the books variable--> match the index with the user index for book added(using loop match the index and the user input)--> then append it in a new list named books_added
-        pass
+        self.list_books()
+        choice = int(input("Enter the number of the book to add: "))
+        for i in range(len(self.books)):
+            if i + 1 == choice:
+                self.books_added.append(self.books[i])
 
     def books_in_cart(self):
-        # books_added named variable use this variable to list all the books using index value 
-        pass
+        for i in range(len(self.books_added)):
+            print(i + 1, "==>", self.books_added[i])
 
 
-user_1 = library(1)
+user_1 = library(2)
+user_1.books_in_cart()
