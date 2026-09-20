@@ -104,10 +104,11 @@ class library:
             print(i + 1, "==>", books[i])
 
     def add_books(self):
-        self.user_input
+        # index from the books variable--> match the index with the user index for book added(using loop match the index and the user input)--> then append it in a new list named books_added
         pass
 
     def books_in_cart(self):
+        # books_added named variable use this variable to list all the books using index value 
         pass
 
 
