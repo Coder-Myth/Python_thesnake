@@ -8,3 +8,9 @@ import os
 #please don't run this code else folder named : 48-100 will be created 
 for i in range(47,100):
     print(os.mkdir(f"data/{i}.py"))
+
+# os module:
+# renaming a file:
+import os 
+
+os.rename("Oldfile.txt","new_file.txt")
