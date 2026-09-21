@@ -3,12 +3,13 @@
 
 
 class employee:
+    retirement_age = 60
+
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
     def retire_age(self, retire_age):
-        self.retire_age = self.age - 60
         return self.retire_age
 
     def details(self):
