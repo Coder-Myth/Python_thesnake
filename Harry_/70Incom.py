@@ -6,8 +6,9 @@ class Employee:
 
     @classmethod
     def fromStr(cls,string):
+        int (string.split("-")[1])
+        return cls(string.split("-"))[0]
         
-        pass
     def details(self):
         print(f"Name--->{self.name}\nAge--->{self.salary}")
 
