@@ -1,5 +1,4 @@
 # class methods as constructor:
-        print(f"Name--->{self.name}\nAge--->{self.salary}")
 
 
 class Employee:
@@ -11,10 +10,13 @@ class Employee:
     def fromStr(cls, string):
         # Split the string and unpack into name and salary
         name, salary = string.split("-")
-        return cls(name, int(salary)) # Convert salary to int and pass as separate arguments
-        
+        return cls(
+            name, int(salary)
+        )  # Convert salary to int and pass as separate arguments
+
     def details(self):
         print(f"Name--->{self.name}\nSalary--->{self.salary}")
+
 
 # what if the input is given in single string but  a - for this we create a list that has the words seperatedb= Employee() by -
 # using class methods as a constructors
