@@ -11,7 +11,7 @@ b=int(a)#b a int 6 (explicit typecasting)
 
 c=40.9 # float 
 
-d=54
+d=54 # integer
 
 print(c+d)#here c float d is integer i.e d is converted into float i.e. implicit typecasting 
 
