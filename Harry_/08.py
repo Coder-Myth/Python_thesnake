@@ -9,7 +9,7 @@ a="6"#a = string 6
 
 b=int(a)#b a int 6 (explicit typecasting)
 
-c=40.9
+c=40.9 # float 
 
 d=54
 
