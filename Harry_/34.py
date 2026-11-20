@@ -1,25 +1,19 @@
-#  dictionary methods 
+#  dictionary methods
 
-employee1={
-    23:45,
-    24:88
+employee1 = {23: 45, 24: 88}
 
-}
+manager = {25: 55}
 
-manager={
-    25:55
-}
-
-employee1.update(manager)#update the dictionary
+employee1.update(manager)  # update the dictionary
 
 print(employee1)
 
-manager.clear()#clear the dictionary
+manager.clear()  # clear the dictionary
 
-employee1.pop(24)#removes the selected key value
+employee1.pop(24)  # removes the selected key value
 print(employee1)
 
-employee1.popitem()#removes the last key value pair
+employee1.popitem()  # removes the last key value pair
 
 print(employee1)
 
@@ -27,13 +21,14 @@ print(employee1)
 
 
 # --------------------------------------Input Methods-----------------------------------
-# strip : to manage the spaces in the input string 
-
-# Syntax : 
+# strip : to manage the spaces in the input string
+# rstrip() , lstrip()
+# Syntax :
 # var_nam.strip()
 
-#find method : returns index of the element from where the given object starts, moves LEFT TO RIGHT 
-#rfind method : returns index of the element from where the given object starts moves LEFT TO RIGHT
+# find method : returns index of the element from where the given object starts, moves LEFT TO RIGHT
+# rfind method : returns index of the element from where the given object starts moves LEFT TO RIGHT
 
-#syntax :
-# var_name.find()
+# syntax :
+# var_name.find("value")
+# var_name.rfind("value")
