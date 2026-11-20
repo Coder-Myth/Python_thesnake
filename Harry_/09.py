@@ -10,6 +10,3 @@ print(a)#Dhananjay Gurjar
 
 b= int(input("Hello , Your Age : "))
 
-# now the input i got is in the form of integer 
-
-#input 
