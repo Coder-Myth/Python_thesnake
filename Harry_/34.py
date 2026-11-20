@@ -24,3 +24,10 @@ employee1.popitem()#removes the last key value pair
 print(employee1)
 
 # del employee1 <-----deletes the dictionary------->
+
+
+
+# strip : to manage the spaces in the input string 
+
+# Syntax : 
+# var_nam.strip()
