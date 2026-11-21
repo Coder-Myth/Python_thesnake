@@ -32,3 +32,5 @@ print(employee1)
 # syntax :
 # var_name.find("value")
 # var_name.rfind("value")
+
+# var _name 
